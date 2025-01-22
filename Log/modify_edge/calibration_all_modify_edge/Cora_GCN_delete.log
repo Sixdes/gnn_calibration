@@ -1,0 +1,241 @@
+Namespace(cal_dropout_rate=0.5, cal_wdecay=None, calibration='TS', config=True, dataset='Cora', dropout_rate=0.5, ece_bins=15, ece_norm=1.0, ece_scheme='equal_width', folds=3, gats_args=Namespace(bias=1, heads=2), help=None, is_edge_add=False, is_edge_delete=True, model='GCN', save_prediction=False, seed=10, split_type='5_3f_85', verbose=False, wdecay=0.0005)
+-----------------------------------training with GCN on Cora-----------------------------------
+the modify-delete Cora edges: 10556 with ratio 0
+the modify-delete Cora edges: 10556 with ratio 0
+the modify-delete Cora edges: 10556 with ratio 0
+the modify-delete Cora edges: 10556 with ratio 0
+the modify-delete Cora edges: 10556 with ratio 0
+the modify-delete Cora edges: 10556 with ratio 0
+the modify-delete Cora edges: 10556 with ratio 0
+the modify-delete Cora edges: 10556 with ratio 0
+the modify-delete Cora edges: 10556 with ratio 0
+the modify-delete Cora edges: 10556 with ratio 0
+the modify-delete Cora edges: 10556 with ratio 0
+the modify-delete Cora edges: 10556 with ratio 0
+the modify-delete Cora edges: 10556 with ratio 0
+the modify-delete Cora edges: 10556 with ratio 0
+the modify-delete Cora edges: 10556 with ratio 0
+the modify-delete Cora edges: 10556 with ratio 0
+the modify-delete Cora edges: 10556 with ratio 0
+the modify-delete Cora edges: 10556 with ratio 0
+Val NNL: &0.0725
+Nodewise Accuracy: &83.84$\pm$0.67 	NLL: &0.5832$\pm$0.0714 	Conf: &0.78$\pm$0.10 	Brier: &0.2626$\pm$0.0316 	ECE: &9.67$\pm$7.30 	Classwise-ECE: &3.50$\pm$1.93 	KDE: &9.39$\pm$7.58
+Nodewise Accuracy: &83.84$\pm$0.67 	NLL: &0.5453$\pm$0.0309 	Conf: &0.86$\pm$0.03 	Brier: &0.2431$\pm$0.0081 	ECE: &4.52$\pm$1.34 	Classwise-ECE: &2.11$\pm$0.25 	KDE: &3.74$\pm$1.30
+the modify-delete Cora edges: 10360 with ratio 0.1
+the modify-delete Cora edges: 10361 with ratio 0.1
+the modify-delete Cora edges: 10342 with ratio 0.1
+the modify-delete Cora edges: 10329 with ratio 0.1
+the modify-delete Cora edges: 10348 with ratio 0.1
+the modify-delete Cora edges: 10341 with ratio 0.1
+the modify-delete Cora edges: 10369 with ratio 0.1
+the modify-delete Cora edges: 10355 with ratio 0.1
+the modify-delete Cora edges: 10361 with ratio 0.1
+the modify-delete Cora edges: 10365 with ratio 0.1
+the modify-delete Cora edges: 10345 with ratio 0.1
+the modify-delete Cora edges: 10370 with ratio 0.1
+the modify-delete Cora edges: 10364 with ratio 0.1
+the modify-delete Cora edges: 10357 with ratio 0.1
+the modify-delete Cora edges: 10345 with ratio 0.1
+the modify-delete Cora edges: 10356 with ratio 0.1
+the modify-delete Cora edges: 10344 with ratio 0.1
+the modify-delete Cora edges: 10338 with ratio 0.1
+Val NNL: &0.0634
+Nodewise Accuracy: &84.17$\pm$0.71 	NLL: &0.5541$\pm$0.0454 	Conf: &0.80$\pm$0.08 	Brier: &0.2508$\pm$0.0182 	ECE: &7.56$\pm$5.40 	Classwise-ECE: &2.91$\pm$1.30 	KDE: &7.34$\pm$5.69
+Nodewise Accuracy: &84.17$\pm$0.71 	NLL: &0.5370$\pm$0.0293 	Conf: &0.86$\pm$0.03 	Brier: &0.2403$\pm$0.0087 	ECE: &4.54$\pm$1.57 	Classwise-ECE: &2.08$\pm$0.29 	KDE: &3.94$\pm$1.37
+the modify-delete Cora edges: 10166 with ratio 0.2
+the modify-delete Cora edges: 10152 with ratio 0.2
+the modify-delete Cora edges: 10161 with ratio 0.2
+the modify-delete Cora edges: 10167 with ratio 0.2
+the modify-delete Cora edges: 10132 with ratio 0.2
+the modify-delete Cora edges: 10168 with ratio 0.2
+the modify-delete Cora edges: 10133 with ratio 0.2
+the modify-delete Cora edges: 10154 with ratio 0.2
+the modify-delete Cora edges: 10150 with ratio 0.2
+the modify-delete Cora edges: 10135 with ratio 0.2
+the modify-delete Cora edges: 10170 with ratio 0.2
+the modify-delete Cora edges: 10164 with ratio 0.2
+the modify-delete Cora edges: 10158 with ratio 0.2
+the modify-delete Cora edges: 10162 with ratio 0.2
+the modify-delete Cora edges: 10150 with ratio 0.2
+the modify-delete Cora edges: 10139 with ratio 0.2
+the modify-delete Cora edges: 10155 with ratio 0.2
+the modify-delete Cora edges: 10183 with ratio 0.2
+Val NNL: &0.0559
+Nodewise Accuracy: &84.31$\pm$0.81 	NLL: &0.5527$\pm$0.0600 	Conf: &0.82$\pm$0.08 	Brier: &0.2474$\pm$0.0240 	ECE: &6.98$\pm$5.31 	Classwise-ECE: &2.72$\pm$1.39 	KDE: &6.71$\pm$5.50
+Nodewise Accuracy: &84.31$\pm$0.81 	NLL: &0.5390$\pm$0.0454 	Conf: &0.87$\pm$0.03 	Brier: &0.2391$\pm$0.0108 	ECE: &4.74$\pm$1.60 	Classwise-ECE: &2.10$\pm$0.34 	KDE: &4.11$\pm$1.65
+the modify-delete Cora edges: 9934 with ratio 0.3
+the modify-delete Cora edges: 9931 with ratio 0.3
+the modify-delete Cora edges: 10018 with ratio 0.3
+the modify-delete Cora edges: 9967 with ratio 0.3
+the modify-delete Cora edges: 9979 with ratio 0.3
+the modify-delete Cora edges: 9965 with ratio 0.3
+the modify-delete Cora edges: 9960 with ratio 0.3
+the modify-delete Cora edges: 9953 with ratio 0.3
+the modify-delete Cora edges: 9971 with ratio 0.3
+the modify-delete Cora edges: 9964 with ratio 0.3
+the modify-delete Cora edges: 9940 with ratio 0.3
+the modify-delete Cora edges: 9964 with ratio 0.3
+the modify-delete Cora edges: 9958 with ratio 0.3
+the modify-delete Cora edges: 9954 with ratio 0.3
+the modify-delete Cora edges: 9943 with ratio 0.3
+the modify-delete Cora edges: 9958 with ratio 0.3
+the modify-delete Cora edges: 9950 with ratio 0.3
+the modify-delete Cora edges: 9946 with ratio 0.3
+Val NNL: &0.0549
+Nodewise Accuracy: &84.59$\pm$0.87 	NLL: &0.5540$\pm$0.0588 	Conf: &0.81$\pm$0.09 	Brier: &0.2469$\pm$0.0241 	ECE: &7.96$\pm$6.22 	Classwise-ECE: &2.99$\pm$1.62 	KDE: &7.76$\pm$6.41
+Nodewise Accuracy: &84.59$\pm$0.87 	NLL: &0.5341$\pm$0.0429 	Conf: &0.87$\pm$0.03 	Brier: &0.2342$\pm$0.0114 	ECE: &4.63$\pm$1.52 	Classwise-ECE: &2.06$\pm$0.37 	KDE: &3.88$\pm$1.52
+the modify-delete Cora edges: 9761 with ratio 0.4
+the modify-delete Cora edges: 9774 with ratio 0.4
+the modify-delete Cora edges: 9768 with ratio 0.4
+the modify-delete Cora edges: 9748 with ratio 0.4
+the modify-delete Cora edges: 9795 with ratio 0.4
+the modify-delete Cora edges: 9773 with ratio 0.4
+the modify-delete Cora edges: 9762 with ratio 0.4
+the modify-delete Cora edges: 9764 with ratio 0.4
+the modify-delete Cora edges: 9749 with ratio 0.4
+the modify-delete Cora edges: 9724 with ratio 0.4
+the modify-delete Cora edges: 9711 with ratio 0.4
+the modify-delete Cora edges: 9743 with ratio 0.4
+the modify-delete Cora edges: 9777 with ratio 0.4
+the modify-delete Cora edges: 9770 with ratio 0.4
+the modify-delete Cora edges: 9714 with ratio 0.4
+the modify-delete Cora edges: 9724 with ratio 0.4
+the modify-delete Cora edges: 9730 with ratio 0.4
+the modify-delete Cora edges: 9772 with ratio 0.4
+Val NNL: &0.0524
+Nodewise Accuracy: &85.20$\pm$0.58 	NLL: &0.5298$\pm$0.0369 	Conf: &0.80$\pm$0.07 	Brier: &0.2354$\pm$0.0147 	ECE: &7.53$\pm$4.76 	Classwise-ECE: &2.86$\pm$1.14 	KDE: &7.50$\pm$5.01
+Nodewise Accuracy: &85.20$\pm$0.58 	NLL: &0.5119$\pm$0.0314 	Conf: &0.88$\pm$0.03 	Brier: &0.2244$\pm$0.0085 	ECE: &4.19$\pm$1.34 	Classwise-ECE: &1.92$\pm$0.27 	KDE: &3.48$\pm$1.29
+the modify-delete Cora edges: 9579 with ratio 0.5
+the modify-delete Cora edges: 9543 with ratio 0.5
+the modify-delete Cora edges: 9533 with ratio 0.5
+the modify-delete Cora edges: 9527 with ratio 0.5
+the modify-delete Cora edges: 9552 with ratio 0.5
+the modify-delete Cora edges: 9556 with ratio 0.5
+the modify-delete Cora edges: 9554 with ratio 0.5
+the modify-delete Cora edges: 9559 with ratio 0.5
+the modify-delete Cora edges: 9554 with ratio 0.5
+the modify-delete Cora edges: 9546 with ratio 0.5
+the modify-delete Cora edges: 9571 with ratio 0.5
+the modify-delete Cora edges: 9530 with ratio 0.5
+the modify-delete Cora edges: 9531 with ratio 0.5
+the modify-delete Cora edges: 9531 with ratio 0.5
+the modify-delete Cora edges: 9550 with ratio 0.5
+the modify-delete Cora edges: 9594 with ratio 0.5
+the modify-delete Cora edges: 9584 with ratio 0.5
+the modify-delete Cora edges: 9527 with ratio 0.5
+Val NNL: &0.0372
+Nodewise Accuracy: &85.59$\pm$0.60 	NLL: &0.5002$\pm$0.0266 	Conf: &0.85$\pm$0.05 	Brier: &0.2224$\pm$0.0096 	ECE: &4.79$\pm$2.51 	Classwise-ECE: &2.18$\pm$0.51 	KDE: &4.50$\pm$2.85
+Nodewise Accuracy: &85.59$\pm$0.60 	NLL: &0.5019$\pm$0.0307 	Conf: &0.88$\pm$0.03 	Brier: &0.2202$\pm$0.0081 	ECE: &4.05$\pm$1.50 	Classwise-ECE: &1.98$\pm$0.28 	KDE: &3.43$\pm$1.39
+the modify-delete Cora edges: 9326 with ratio 0.6
+the modify-delete Cora edges: 9361 with ratio 0.6
+the modify-delete Cora edges: 9361 with ratio 0.6
+the modify-delete Cora edges: 9330 with ratio 0.6
+the modify-delete Cora edges: 9358 with ratio 0.6
+the modify-delete Cora edges: 9327 with ratio 0.6
+the modify-delete Cora edges: 9338 with ratio 0.6
+the modify-delete Cora edges: 9359 with ratio 0.6
+the modify-delete Cora edges: 9347 with ratio 0.6
+the modify-delete Cora edges: 9349 with ratio 0.6
+the modify-delete Cora edges: 9363 with ratio 0.6
+the modify-delete Cora edges: 9358 with ratio 0.6
+the modify-delete Cora edges: 9364 with ratio 0.6
+the modify-delete Cora edges: 9350 with ratio 0.6
+the modify-delete Cora edges: 9386 with ratio 0.6
+the modify-delete Cora edges: 9402 with ratio 0.6
+the modify-delete Cora edges: 9358 with ratio 0.6
+the modify-delete Cora edges: 9351 with ratio 0.6
+Val NNL: &0.0389
+Nodewise Accuracy: &86.20$\pm$0.57 	NLL: &0.5094$\pm$0.0706 	Conf: &0.82$\pm$0.09 	Brier: &0.2234$\pm$0.0305 	ECE: &7.12$\pm$6.54 	Classwise-ECE: &2.86$\pm$1.70 	KDE: &6.97$\pm$6.76
+Nodewise Accuracy: &86.20$\pm$0.57 	NLL: &0.4866$\pm$0.0310 	Conf: &0.88$\pm$0.03 	Brier: &0.2110$\pm$0.0094 	ECE: &3.96$\pm$1.09 	Classwise-ECE: &1.95$\pm$0.26 	KDE: &3.38$\pm$1.04
+the modify-delete Cora edges: 9150 with ratio 0.7
+the modify-delete Cora edges: 9117 with ratio 0.7
+the modify-delete Cora edges: 9137 with ratio 0.7
+the modify-delete Cora edges: 9167 with ratio 0.7
+the modify-delete Cora edges: 9155 with ratio 0.7
+the modify-delete Cora edges: 9151 with ratio 0.7
+the modify-delete Cora edges: 9123 with ratio 0.7
+the modify-delete Cora edges: 9139 with ratio 0.7
+the modify-delete Cora edges: 9160 with ratio 0.7
+the modify-delete Cora edges: 9175 with ratio 0.7
+the modify-delete Cora edges: 9132 with ratio 0.7
+the modify-delete Cora edges: 9148 with ratio 0.7
+the modify-delete Cora edges: 9135 with ratio 0.7
+the modify-delete Cora edges: 9168 with ratio 0.7
+the modify-delete Cora edges: 9113 with ratio 0.7
+the modify-delete Cora edges: 9161 with ratio 0.7
+the modify-delete Cora edges: 9156 with ratio 0.7
+the modify-delete Cora edges: 9152 with ratio 0.7
+Val NNL: &0.0262
+Nodewise Accuracy: &87.02$\pm$0.73 	NLL: &0.4742$\pm$0.0384 	Conf: &0.85$\pm$0.06 	Brier: &0.2050$\pm$0.0152 	ECE: &5.50$\pm$4.31 	Classwise-ECE: &2.35$\pm$1.05 	KDE: &5.26$\pm$4.58
+Nodewise Accuracy: &87.02$\pm$0.73 	NLL: &0.4727$\pm$0.0313 	Conf: &0.89$\pm$0.04 	Brier: &0.1997$\pm$0.0097 	ECE: &4.21$\pm$1.28 	Classwise-ECE: &1.97$\pm$0.28 	KDE: &3.71$\pm$1.27
+the modify-delete Cora edges: 8945 with ratio 0.8
+the modify-delete Cora edges: 8943 with ratio 0.8
+the modify-delete Cora edges: 8903 with ratio 0.8
+the modify-delete Cora edges: 8970 with ratio 0.8
+the modify-delete Cora edges: 8967 with ratio 0.8
+the modify-delete Cora edges: 8931 with ratio 0.8
+the modify-delete Cora edges: 8943 with ratio 0.8
+the modify-delete Cora edges: 8946 with ratio 0.8
+the modify-delete Cora edges: 8983 with ratio 0.8
+the modify-delete Cora edges: 8951 with ratio 0.8
+the modify-delete Cora edges: 8982 with ratio 0.8
+the modify-delete Cora edges: 8962 with ratio 0.8
+the modify-delete Cora edges: 8964 with ratio 0.8
+the modify-delete Cora edges: 8979 with ratio 0.8
+the modify-delete Cora edges: 8974 with ratio 0.8
+the modify-delete Cora edges: 8966 with ratio 0.8
+the modify-delete Cora edges: 8960 with ratio 0.8
+the modify-delete Cora edges: 8953 with ratio 0.8
+Val NNL: &0.0212
+Nodewise Accuracy: &87.85$\pm$0.74 	NLL: &0.4390$\pm$0.0362 	Conf: &0.87$\pm$0.04 	Brier: &0.1892$\pm$0.0124 	ECE: &4.41$\pm$2.30 	Classwise-ECE: &2.01$\pm$0.62 	KDE: &4.13$\pm$2.71
+Nodewise Accuracy: &87.85$\pm$0.74 	NLL: &0.4343$\pm$0.0345 	Conf: &0.89$\pm$0.02 	Brier: &0.1860$\pm$0.0106 	ECE: &3.07$\pm$0.97 	Classwise-ECE: &1.72$\pm$0.21 	KDE: &2.56$\pm$0.66
+the modify-delete Cora edges: 8748 with ratio 0.9
+the modify-delete Cora edges: 8751 with ratio 0.9
+the modify-delete Cora edges: 8731 with ratio 0.9
+the modify-delete Cora edges: 8744 with ratio 0.9
+the modify-delete Cora edges: 8764 with ratio 0.9
+the modify-delete Cora edges: 8756 with ratio 0.9
+the modify-delete Cora edges: 8743 with ratio 0.9
+the modify-delete Cora edges: 8755 with ratio 0.9
+the modify-delete Cora edges: 8738 with ratio 0.9
+the modify-delete Cora edges: 8764 with ratio 0.9
+the modify-delete Cora edges: 8758 with ratio 0.9
+the modify-delete Cora edges: 8743 with ratio 0.9
+the modify-delete Cora edges: 8753 with ratio 0.9
+the modify-delete Cora edges: 8767 with ratio 0.9
+the modify-delete Cora edges: 8742 with ratio 0.9
+the modify-delete Cora edges: 8746 with ratio 0.9
+the modify-delete Cora edges: 8754 with ratio 0.9
+the modify-delete Cora edges: 8737 with ratio 0.9
+Val NNL: &0.0174
+Nodewise Accuracy: &89.33$\pm$0.71 	NLL: &0.4134$\pm$0.0427 	Conf: &0.85$\pm$0.06 	Brier: &0.1768$\pm$0.0174 	ECE: &6.65$\pm$4.62 	Classwise-ECE: &2.45$\pm$1.12 	KDE: &6.65$\pm$4.94
+Nodewise Accuracy: &89.33$\pm$0.71 	NLL: &0.3969$\pm$0.0292 	Conf: &0.90$\pm$0.02 	Brier: &0.1666$\pm$0.0094 	ECE: &3.23$\pm$0.93 	Classwise-ECE: &1.64$\pm$0.21 	KDE: &2.74$\pm$1.23
+the modify-delete Cora edges: 8550 with ratio 1.0
+the modify-delete Cora edges: 8550 with ratio 1.0
+the modify-delete Cora edges: 8550 with ratio 1.0
+the modify-delete Cora edges: 8550 with ratio 1.0
+the modify-delete Cora edges: 8550 with ratio 1.0
+the modify-delete Cora edges: 8550 with ratio 1.0
+the modify-delete Cora edges: 8550 with ratio 1.0
+the modify-delete Cora edges: 8550 with ratio 1.0
+the modify-delete Cora edges: 8550 with ratio 1.0
+the modify-delete Cora edges: 8550 with ratio 1.0
+the modify-delete Cora edges: 8550 with ratio 1.0
+the modify-delete Cora edges: 8550 with ratio 1.0
+the modify-delete Cora edges: 8550 with ratio 1.0
+the modify-delete Cora edges: 8550 with ratio 1.0
+the modify-delete Cora edges: 8550 with ratio 1.0
+the modify-delete Cora edges: 8550 with ratio 1.0
+the modify-delete Cora edges: 8550 with ratio 1.0
+the modify-delete Cora edges: 8550 with ratio 1.0
+Val NNL: &0.0083
+Nodewise Accuracy: &90.75$\pm$0.59 	NLL: &0.3496$\pm$0.0344 	Conf: &0.89$\pm$0.05 	Brier: &0.1468$\pm$0.0139 	ECE: &3.79$\pm$3.95 	Classwise-ECE: &1.78$\pm$0.94 	KDE: &3.82$\pm$4.10
+Nodewise Accuracy: &90.75$\pm$0.59 	NLL: &0.3419$\pm$0.0252 	Conf: &0.91$\pm$0.02 	Brier: &0.1426$\pm$0.0098 	ECE: &2.58$\pm$0.84 	Classwise-ECE: &1.44$\pm$0.17 	KDE: &2.42$\pm$0.99
+----------------------------------------------------------------------------
+delete edge mean ece uncal : [9.67323227475087, 7.557497918605804, 6.984667666256428, 7.962223038905197, 7.527457001722521, 4.79302496338884, 7.116552204307583, 5.502912650505701, 4.41079657110903, 6.647407615350352, 3.7927816208038063]
+delete edge mean ece TS : [4.524102558692297, 4.535563693692287, 4.738240895999803, 4.634343874123362, 4.190476880305343, 4.045368182576365, 3.9608413353562355, 4.209333120120896, 3.071645202322139, 3.231479682856136, 2.5841859893666372]
+delete edge mean acc uncal : [83.83864031897652, 84.16510423024496, 84.30988325013054, 84.59092643525865, 85.20127104388344, 85.59302654531267, 86.20337115393745, 87.01810969246758, 87.85272141297659, 89.32606412304771, 90.75114892588722]
+delete edge mean acc TS : [83.83864031897652, 84.16510423024496, 84.30988325013054, 84.59092643525865, 85.20127104388344, 85.59302654531267, 86.20337115393745, 87.01810969246758, 87.85272141297659, 89.32606412304771, 90.75114892588722]
+delete edge mean conf uncal : [0.7777354220549265, 0.7995286451445686, 0.8216213583946228, 0.809737440612581, 0.8043268852763705, 0.846384714047114, 0.819278574652142, 0.853562616639667, 0.8678839736514621, 0.8456198771794637, 0.8909270862738291]
+delete edge mean conf TS : [0.8635207381513383, 0.863700720998976, 0.868426286511951, 0.8722818692525228, 0.8754629558987088, 0.8774977657530043, 0.8801514506340027, 0.8878364066282908, 0.8940558499760098, 0.9037301308578916, 0.9123757912053002]
+----------------------------------------------------------------------------

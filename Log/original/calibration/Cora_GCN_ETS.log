@@ -1,0 +1,29 @@
+Namespace(cal_dropout_rate=0.5, cal_wdecay=None, calibration='ETS', config=True, dataset='Cora', dropout_rate=0.5, ece_bins=15, ece_norm=1.0, ece_scheme='equal_width', folds=3, gats_args=Namespace(bias=1, heads=2), help=None, model='GCN', save_prediction=False, seed=10, split_type='5_3f_85', verbose=False, wdecay=0.0005)
+0 0
+0 1
+0 2
+0 3
+0 4
+1 0
+1 1
+1 2
+1 3
+1 4
+2 0
+2 1
+2 2
+2 3
+2 4
+3 0
+3 1
+3 2
+3 3
+3 4
+4 0
+4 1
+4 2
+4 3
+4 4
+Val NNL: &0.0725
+Nodewise Accuracy: &83.72$\pm$0.66 	NLL: &0.5675$\pm$0.0561 	Brier: &0.2567$\pm$0.0226 	ECE: &7.51$\pm$5.72 	Classwise-ECE: &2.93$\pm$1.44 	KDE: &7.33$\pm$5.98
+Nodewise Accuracy: &83.72$\pm$0.66 	NLL: &0.5404$\pm$0.0308 	Brier: &0.2447$\pm$0.0094 	ECE: &3.98$\pm$1.38 	Classwise-ECE: &2.00$\pm$0.28 	KDE: &3.37$\pm$1.36

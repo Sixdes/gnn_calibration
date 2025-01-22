@@ -1,0 +1,24 @@
+Namespace(cal_dropout_rate=0.5, cal_wdecay=None, calibration='GATS', config=False, dataset='Cora', dropout_rate=0.5, ece_bins=15, ece_norm=1.0, ece_scheme='equal_width', folds=3, gats_args=Namespace(bias=1, heads=2), help=None, is_edge_add=True, is_edge_delete=False, model='GCN', save_prediction=False, seed=10, split_type='5_3f_85', verbose=False, wdecay=0.0005)
+---------------------------training with GCN on Cora---------------------------
+---------------------------training with add 0 edges---------------------------
+add the num of edges: 0
+Namespace(cal_dropout_rate=0.5, cal_wdecay=None, calibration='GATS', config=False, dataset='Cora', dropout_rate=0.5, ece_bins=15, ece_norm=1.0, ece_scheme='equal_width', folds=3, gats_args=Namespace(bias=1, heads=2), help=None, is_edge_add=True, is_edge_delete=False, model='GCN', save_prediction=False, seed=10, split_type='5_3f_85', verbose=False, wdecay=0.0005)
+---------------------------training with GCN on Cora---------------------------
+---------------------------training with add 0 edges---------------------------
+add the num of edges: 0
+the modeify-add Cora edges: 10558 with iteration 0
+new_edge_index num: 10558
+add the num of edges: 0
+the modeify-add Cora edges: 10558 with iteration 0
+new_edge_index num: 10558
+add the num of edges: 0
+the modeify-add Cora edges: 10558 with iteration 0
+new_edge_index num: 10558
+add the num of edges: 0
+the modeify-add Cora edges: 10558 with iteration 0
+new_edge_index num: 10558
+add the num of edges: 0
+the modeify-add Cora edges: 10558 with iteration 0
+new_edge_index num: 10558
+add the num of edges: 0
+the modeify-add Cora edges: 10558 with iteration 0

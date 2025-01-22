@@ -1,0 +1,435 @@
+Namespace(cal_dropout_rate=0.5, cal_wdecay=None, calibration='GATS', config=False, dataset='Cora', dropout_rate=0.5, ece_bins=15, ece_norm=1.0, ece_scheme='equal_width', folds=3, gats_args=Namespace(bias=1, heads=2), help=None, is_edge_add=False, is_edge_delete=True, model='GCN', save_prediction=False, seed=10, split_type='5_3f_85', verbose=False, wdecay=0.0005)
+---------------------------training with GCN on Cora---------------------------
+---------------------------training with delete 0---------------------------
+the modify-delete Cora edges: 10556 with ratio 0
+Namespace(cal_dropout_rate=0.5, cal_wdecay=None, calibration='GATS', config=False, dataset='Cora', dropout_rate=0.5, ece_bins=15, ece_norm=1.0, ece_scheme='equal_width', folds=3, gats_args=Namespace(bias=1, heads=2), help=None, is_edge_add=False, is_edge_delete=True, model='GCN', save_prediction=False, seed=10, split_type='5_3f_85', verbose=False, wdecay=0.0005)
+---------------------------training with GCN on Cora---------------------------
+---------------------------training with delete 0---------------------------
+the modify-delete Cora edges: 10556 with ratio 0
+new_edge_index num: 10556
+the modify-delete Cora edges: 10556 with ratio 0
+new_edge_index num: 10556
+the modify-delete Cora edges: 10556 with ratio 0
+new_edge_index num: 10556
+the modify-delete Cora edges: 10556 with ratio 0
+new_edge_index num: 10556
+the modify-delete Cora edges: 10556 with ratio 0
+new_edge_index num: 10556
+the modify-delete Cora edges: 10556 with ratio 0
+new_edge_index num: 10556
+the modify-delete Cora edges: 10556 with ratio 0
+new_edge_index num: 10556
+the modify-delete Cora edges: 10556 with ratio 0
+new_edge_index num: 10556
+the modify-delete Cora edges: 10556 with ratio 0
+new_edge_index num: 10556
+the modify-delete Cora edges: 10556 with ratio 0
+new_edge_index num: 10556
+the modify-delete Cora edges: 10556 with ratio 0
+new_edge_index num: 10556
+the modify-delete Cora edges: 10556 with ratio 0
+new_edge_index num: 10556
+the modify-delete Cora edges: 10556 with ratio 0
+new_edge_index num: 10556
+the modify-delete Cora edges: 10556 with ratio 0
+new_edge_index num: 10556
+the modify-delete Cora edges: 10556 with ratio 0
+new_edge_index num: 10556
+the modify-delete Cora edges: 10556 with ratio 0
+new_edge_index num: 10556
+the modify-delete Cora edges: 10556 with ratio 0
+new_edge_index num: 10556
+the modify-delete Cora edges: 10556 with ratio 0
+new_edge_index num: 10556
+Val  Accuracy: &87.69 	        NLL: &0.5225        ECE: &13.2397
+Test Accuracy: &83.84\pm0.67 	NLL: &0.5832\pm0.0714 	ECE: &9.6732\pm7.30
+---------------------------training with delete 0.1---------------------------
+the modify-delete Cora edges: 10360 with ratio 0.1
+new_edge_index num: 10360
+the modify-delete Cora edges: 10361 with ratio 0.1
+new_edge_index num: 10361
+the modify-delete Cora edges: 10342 with ratio 0.1
+new_edge_index num: 10342
+the modify-delete Cora edges: 10329 with ratio 0.1
+new_edge_index num: 10329
+the modify-delete Cora edges: 10348 with ratio 0.1
+new_edge_index num: 10348
+the modify-delete Cora edges: 10341 with ratio 0.1
+new_edge_index num: 10341
+the modify-delete Cora edges: 10369 with ratio 0.1
+new_edge_index num: 10369
+the modify-delete Cora edges: 10355 with ratio 0.1
+new_edge_index num: 10355
+the modify-delete Cora edges: 10361 with ratio 0.1
+new_edge_index num: 10361
+the modify-delete Cora edges: 10365 with ratio 0.1
+new_edge_index num: 10365
+the modify-delete Cora edges: 10345 with ratio 0.1
+new_edge_index num: 10345
+the modify-delete Cora edges: 10370 with ratio 0.1
+new_edge_index num: 10370
+the modify-delete Cora edges: 10364 with ratio 0.1
+new_edge_index num: 10364
+the modify-delete Cora edges: 10357 with ratio 0.1
+new_edge_index num: 10357
+the modify-delete Cora edges: 10345 with ratio 0.1
+new_edge_index num: 10345
+the modify-delete Cora edges: 10356 with ratio 0.1
+new_edge_index num: 10356
+the modify-delete Cora edges: 10344 with ratio 0.1
+new_edge_index num: 10344
+the modify-delete Cora edges: 10338 with ratio 0.1
+new_edge_index num: 10338
+Val  Accuracy: &88.27 	        NLL: &0.4857        ECE: &10.8410
+Test Accuracy: &84.17\pm0.71 	NLL: &0.5541\pm0.0454 	ECE: &7.5575\pm5.40
+---------------------------training with delete 0.2---------------------------
+the modify-delete Cora edges: 10166 with ratio 0.2
+new_edge_index num: 10166
+the modify-delete Cora edges: 10152 with ratio 0.2
+new_edge_index num: 10152
+the modify-delete Cora edges: 10161 with ratio 0.2
+new_edge_index num: 10161
+the modify-delete Cora edges: 10167 with ratio 0.2
+new_edge_index num: 10167
+the modify-delete Cora edges: 10132 with ratio 0.2
+new_edge_index num: 10132
+the modify-delete Cora edges: 10168 with ratio 0.2
+new_edge_index num: 10168
+the modify-delete Cora edges: 10133 with ratio 0.2
+new_edge_index num: 10133
+the modify-delete Cora edges: 10154 with ratio 0.2
+new_edge_index num: 10154
+the modify-delete Cora edges: 10150 with ratio 0.2
+new_edge_index num: 10150
+the modify-delete Cora edges: 10135 with ratio 0.2
+new_edge_index num: 10135
+the modify-delete Cora edges: 10170 with ratio 0.2
+new_edge_index num: 10170
+the modify-delete Cora edges: 10164 with ratio 0.2
+new_edge_index num: 10164
+the modify-delete Cora edges: 10158 with ratio 0.2
+new_edge_index num: 10158
+the modify-delete Cora edges: 10162 with ratio 0.2
+new_edge_index num: 10162
+the modify-delete Cora edges: 10150 with ratio 0.2
+new_edge_index num: 10150
+the modify-delete Cora edges: 10139 with ratio 0.2
+new_edge_index num: 10139
+the modify-delete Cora edges: 10155 with ratio 0.2
+new_edge_index num: 10155
+the modify-delete Cora edges: 10183 with ratio 0.2
+new_edge_index num: 10183
+Val  Accuracy: &88.14 	        NLL: &0.4720        ECE: &9.4651
+Test Accuracy: &84.31\pm0.81 	NLL: &0.5527\pm0.0600 	ECE: &6.9847\pm5.31
+---------------------------training with delete 0.3---------------------------
+the modify-delete Cora edges: 9934 with ratio 0.3
+new_edge_index num: 9934
+the modify-delete Cora edges: 9931 with ratio 0.3
+new_edge_index num: 9931
+the modify-delete Cora edges: 10018 with ratio 0.3
+new_edge_index num: 10018
+the modify-delete Cora edges: 9967 with ratio 0.3
+new_edge_index num: 9967
+the modify-delete Cora edges: 9979 with ratio 0.3
+new_edge_index num: 9979
+the modify-delete Cora edges: 9965 with ratio 0.3
+new_edge_index num: 9965
+the modify-delete Cora edges: 9960 with ratio 0.3
+new_edge_index num: 9960
+the modify-delete Cora edges: 9953 with ratio 0.3
+new_edge_index num: 9953
+the modify-delete Cora edges: 9971 with ratio 0.3
+new_edge_index num: 9971
+the modify-delete Cora edges: 9964 with ratio 0.3
+new_edge_index num: 9964
+the modify-delete Cora edges: 9940 with ratio 0.3
+new_edge_index num: 9940
+the modify-delete Cora edges: 9964 with ratio 0.3
+new_edge_index num: 9964
+the modify-delete Cora edges: 9958 with ratio 0.3
+new_edge_index num: 9958
+the modify-delete Cora edges: 9954 with ratio 0.3
+new_edge_index num: 9954
+the modify-delete Cora edges: 9943 with ratio 0.3
+new_edge_index num: 9943
+the modify-delete Cora edges: 9958 with ratio 0.3
+new_edge_index num: 9958
+the modify-delete Cora edges: 9950 with ratio 0.3
+new_edge_index num: 9950
+the modify-delete Cora edges: 9946 with ratio 0.3
+new_edge_index num: 9946
+Val  Accuracy: &88.43 	        NLL: &0.4810        ECE: &10.9920
+Test Accuracy: &84.59\pm0.87 	NLL: &0.5540\pm0.0588 	ECE: &7.9622\pm6.22
+---------------------------training with delete 0.4---------------------------
+the modify-delete Cora edges: 9761 with ratio 0.4
+new_edge_index num: 9761
+the modify-delete Cora edges: 9774 with ratio 0.4
+new_edge_index num: 9774
+the modify-delete Cora edges: 9768 with ratio 0.4
+new_edge_index num: 9768
+the modify-delete Cora edges: 9748 with ratio 0.4
+new_edge_index num: 9748
+the modify-delete Cora edges: 9795 with ratio 0.4
+new_edge_index num: 9795
+the modify-delete Cora edges: 9773 with ratio 0.4
+new_edge_index num: 9773
+the modify-delete Cora edges: 9762 with ratio 0.4
+new_edge_index num: 9762
+the modify-delete Cora edges: 9764 with ratio 0.4
+new_edge_index num: 9764
+the modify-delete Cora edges: 9749 with ratio 0.4
+new_edge_index num: 9749
+the modify-delete Cora edges: 9724 with ratio 0.4
+new_edge_index num: 9724
+the modify-delete Cora edges: 9711 with ratio 0.4
+new_edge_index num: 9711
+the modify-delete Cora edges: 9743 with ratio 0.4
+new_edge_index num: 9743
+the modify-delete Cora edges: 9777 with ratio 0.4
+new_edge_index num: 9777
+the modify-delete Cora edges: 9770 with ratio 0.4
+new_edge_index num: 9770
+the modify-delete Cora edges: 9714 with ratio 0.4
+new_edge_index num: 9714
+the modify-delete Cora edges: 9724 with ratio 0.4
+new_edge_index num: 9724
+the modify-delete Cora edges: 9730 with ratio 0.4
+new_edge_index num: 9730
+the modify-delete Cora edges: 9772 with ratio 0.4
+new_edge_index num: 9772
+Val  Accuracy: &88.81 	        NLL: &0.4669        ECE: &11.1425
+Test Accuracy: &85.20\pm0.58 	NLL: &0.5298\pm0.0369 	ECE: &7.5275\pm4.76
+---------------------------training with delete 0.5---------------------------
+the modify-delete Cora edges: 9579 with ratio 0.5
+new_edge_index num: 9579
+the modify-delete Cora edges: 9543 with ratio 0.5
+new_edge_index num: 9543
+the modify-delete Cora edges: 9533 with ratio 0.5
+new_edge_index num: 9533
+the modify-delete Cora edges: 9527 with ratio 0.5
+new_edge_index num: 9527
+the modify-delete Cora edges: 9552 with ratio 0.5
+new_edge_index num: 9552
+the modify-delete Cora edges: 9556 with ratio 0.5
+new_edge_index num: 9556
+the modify-delete Cora edges: 9554 with ratio 0.5
+new_edge_index num: 9554
+the modify-delete Cora edges: 9559 with ratio 0.5
+new_edge_index num: 9559
+the modify-delete Cora edges: 9554 with ratio 0.5
+new_edge_index num: 9554
+the modify-delete Cora edges: 9546 with ratio 0.5
+new_edge_index num: 9546
+the modify-delete Cora edges: 9571 with ratio 0.5
+new_edge_index num: 9571
+the modify-delete Cora edges: 9530 with ratio 0.5
+new_edge_index num: 9530
+the modify-delete Cora edges: 9531 with ratio 0.5
+new_edge_index num: 9531
+the modify-delete Cora edges: 9531 with ratio 0.5
+new_edge_index num: 9531
+the modify-delete Cora edges: 9550 with ratio 0.5
+new_edge_index num: 9550
+the modify-delete Cora edges: 9594 with ratio 0.5
+new_edge_index num: 9594
+the modify-delete Cora edges: 9584 with ratio 0.5
+new_edge_index num: 9584
+the modify-delete Cora edges: 9527 with ratio 0.5
+new_edge_index num: 9527
+Val  Accuracy: &89.72 	        NLL: &0.4329        ECE: &8.4864
+Test Accuracy: &85.59\pm0.60 	NLL: &0.5002\pm0.0266 	ECE: &4.7930\pm2.51
+---------------------------training with delete 0.6---------------------------
+the modify-delete Cora edges: 9326 with ratio 0.6
+new_edge_index num: 9326
+the modify-delete Cora edges: 9361 with ratio 0.6
+new_edge_index num: 9361
+the modify-delete Cora edges: 9361 with ratio 0.6
+new_edge_index num: 9361
+the modify-delete Cora edges: 9330 with ratio 0.6
+new_edge_index num: 9330
+the modify-delete Cora edges: 9358 with ratio 0.6
+new_edge_index num: 9358
+the modify-delete Cora edges: 9327 with ratio 0.6
+new_edge_index num: 9327
+the modify-delete Cora edges: 9338 with ratio 0.6
+new_edge_index num: 9338
+the modify-delete Cora edges: 9359 with ratio 0.6
+new_edge_index num: 9359
+the modify-delete Cora edges: 9347 with ratio 0.6
+new_edge_index num: 9347
+the modify-delete Cora edges: 9349 with ratio 0.6
+new_edge_index num: 9349
+the modify-delete Cora edges: 9363 with ratio 0.6
+new_edge_index num: 9363
+the modify-delete Cora edges: 9358 with ratio 0.6
+new_edge_index num: 9358
+the modify-delete Cora edges: 9364 with ratio 0.6
+new_edge_index num: 9364
+the modify-delete Cora edges: 9350 with ratio 0.6
+new_edge_index num: 9350
+the modify-delete Cora edges: 9386 with ratio 0.6
+new_edge_index num: 9386
+the modify-delete Cora edges: 9402 with ratio 0.6
+new_edge_index num: 9402
+the modify-delete Cora edges: 9358 with ratio 0.6
+new_edge_index num: 9358
+the modify-delete Cora edges: 9351 with ratio 0.6
+new_edge_index num: 9351
+Val  Accuracy: &89.26 	        NLL: &0.4510        ECE: &10.6337
+Test Accuracy: &86.20\pm0.57 	NLL: &0.5094\pm0.0706 	ECE: &7.1166\pm6.54
+---------------------------training with delete 0.7---------------------------
+the modify-delete Cora edges: 9150 with ratio 0.7
+new_edge_index num: 9150
+the modify-delete Cora edges: 9117 with ratio 0.7
+new_edge_index num: 9117
+the modify-delete Cora edges: 9137 with ratio 0.7
+new_edge_index num: 9137
+the modify-delete Cora edges: 9167 with ratio 0.7
+new_edge_index num: 9167
+the modify-delete Cora edges: 9155 with ratio 0.7
+new_edge_index num: 9155
+the modify-delete Cora edges: 9151 with ratio 0.7
+new_edge_index num: 9151
+the modify-delete Cora edges: 9123 with ratio 0.7
+new_edge_index num: 9123
+the modify-delete Cora edges: 9139 with ratio 0.7
+new_edge_index num: 9139
+the modify-delete Cora edges: 9160 with ratio 0.7
+new_edge_index num: 9160
+the modify-delete Cora edges: 9175 with ratio 0.7
+new_edge_index num: 9175
+the modify-delete Cora edges: 9132 with ratio 0.7
+new_edge_index num: 9132
+the modify-delete Cora edges: 9148 with ratio 0.7
+new_edge_index num: 9148
+the modify-delete Cora edges: 9135 with ratio 0.7
+new_edge_index num: 9135
+the modify-delete Cora edges: 9168 with ratio 0.7
+new_edge_index num: 9168
+the modify-delete Cora edges: 9113 with ratio 0.7
+new_edge_index num: 9113
+the modify-delete Cora edges: 9161 with ratio 0.7
+new_edge_index num: 9161
+the modify-delete Cora edges: 9156 with ratio 0.7
+new_edge_index num: 9156
+the modify-delete Cora edges: 9152 with ratio 0.7
+new_edge_index num: 9152
+Val  Accuracy: &90.71 	        NLL: &0.4035        ECE: &8.2901
+Test Accuracy: &87.02\pm0.73 	NLL: &0.4742\pm0.0384 	ECE: &5.5029\pm4.31
+---------------------------training with delete 0.8---------------------------
+the modify-delete Cora edges: 8945 with ratio 0.8
+new_edge_index num: 8945
+the modify-delete Cora edges: 8943 with ratio 0.8
+new_edge_index num: 8943
+the modify-delete Cora edges: 8903 with ratio 0.8
+new_edge_index num: 8903
+the modify-delete Cora edges: 8970 with ratio 0.8
+new_edge_index num: 8970
+the modify-delete Cora edges: 8967 with ratio 0.8
+new_edge_index num: 8967
+the modify-delete Cora edges: 8931 with ratio 0.8
+new_edge_index num: 8931
+the modify-delete Cora edges: 8943 with ratio 0.8
+new_edge_index num: 8943
+the modify-delete Cora edges: 8946 with ratio 0.8
+new_edge_index num: 8946
+the modify-delete Cora edges: 8983 with ratio 0.8
+new_edge_index num: 8983
+the modify-delete Cora edges: 8951 with ratio 0.8
+new_edge_index num: 8951
+the modify-delete Cora edges: 8982 with ratio 0.8
+new_edge_index num: 8982
+the modify-delete Cora edges: 8962 with ratio 0.8
+new_edge_index num: 8962
+the modify-delete Cora edges: 8964 with ratio 0.8
+new_edge_index num: 8964
+the modify-delete Cora edges: 8979 with ratio 0.8
+new_edge_index num: 8979
+the modify-delete Cora edges: 8974 with ratio 0.8
+new_edge_index num: 8974
+the modify-delete Cora edges: 8966 with ratio 0.8
+new_edge_index num: 8966
+the modify-delete Cora edges: 8960 with ratio 0.8
+new_edge_index num: 8960
+the modify-delete Cora edges: 8953 with ratio 0.8
+new_edge_index num: 8953
+Val  Accuracy: &90.92 	        NLL: &0.3722        ECE: &7.7427
+Test Accuracy: &87.85\pm0.74 	NLL: &0.4390\pm0.0362 	ECE: &4.4108\pm2.30
+---------------------------training with delete 0.9---------------------------
+the modify-delete Cora edges: 8748 with ratio 0.9
+new_edge_index num: 8748
+the modify-delete Cora edges: 8751 with ratio 0.9
+new_edge_index num: 8751
+the modify-delete Cora edges: 8731 with ratio 0.9
+new_edge_index num: 8731
+the modify-delete Cora edges: 8744 with ratio 0.9
+new_edge_index num: 8744
+the modify-delete Cora edges: 8764 with ratio 0.9
+new_edge_index num: 8764
+the modify-delete Cora edges: 8756 with ratio 0.9
+new_edge_index num: 8756
+the modify-delete Cora edges: 8743 with ratio 0.9
+new_edge_index num: 8743
+the modify-delete Cora edges: 8755 with ratio 0.9
+new_edge_index num: 8755
+the modify-delete Cora edges: 8738 with ratio 0.9
+new_edge_index num: 8738
+the modify-delete Cora edges: 8764 with ratio 0.9
+new_edge_index num: 8764
+the modify-delete Cora edges: 8758 with ratio 0.9
+new_edge_index num: 8758
+the modify-delete Cora edges: 8743 with ratio 0.9
+new_edge_index num: 8743
+the modify-delete Cora edges: 8753 with ratio 0.9
+new_edge_index num: 8753
+the modify-delete Cora edges: 8767 with ratio 0.9
+new_edge_index num: 8767
+the modify-delete Cora edges: 8742 with ratio 0.9
+new_edge_index num: 8742
+the modify-delete Cora edges: 8746 with ratio 0.9
+new_edge_index num: 8746
+the modify-delete Cora edges: 8754 with ratio 0.9
+new_edge_index num: 8754
+the modify-delete Cora edges: 8737 with ratio 0.9
+new_edge_index num: 8737
+Val  Accuracy: &91.87 	        NLL: &0.3595        ECE: &9.6926
+Test Accuracy: &89.33\pm0.71 	NLL: &0.4134\pm0.0427 	ECE: &6.6474\pm4.62
+---------------------------training with delete 1.0---------------------------
+the modify-delete Cora edges: 8550 with ratio 1.0
+new_edge_index num: 8550
+the modify-delete Cora edges: 8550 with ratio 1.0
+new_edge_index num: 8550
+the modify-delete Cora edges: 8550 with ratio 1.0
+new_edge_index num: 8550
+the modify-delete Cora edges: 8550 with ratio 1.0
+new_edge_index num: 8550
+the modify-delete Cora edges: 8550 with ratio 1.0
+new_edge_index num: 8550
+the modify-delete Cora edges: 8550 with ratio 1.0
+new_edge_index num: 8550
+the modify-delete Cora edges: 8550 with ratio 1.0
+new_edge_index num: 8550
+the modify-delete Cora edges: 8550 with ratio 1.0
+new_edge_index num: 8550
+the modify-delete Cora edges: 8550 with ratio 1.0
+new_edge_index num: 8550
+the modify-delete Cora edges: 8550 with ratio 1.0
+new_edge_index num: 8550
+the modify-delete Cora edges: 8550 with ratio 1.0
+new_edge_index num: 8550
+the modify-delete Cora edges: 8550 with ratio 1.0
+new_edge_index num: 8550
+the modify-delete Cora edges: 8550 with ratio 1.0
+new_edge_index num: 8550
+the modify-delete Cora edges: 8550 with ratio 1.0
+new_edge_index num: 8550
+the modify-delete Cora edges: 8550 with ratio 1.0
+new_edge_index num: 8550
+the modify-delete Cora edges: 8550 with ratio 1.0
+new_edge_index num: 8550
+the modify-delete Cora edges: 8550 with ratio 1.0
+new_edge_index num: 8550
+the modify-delete Cora edges: 8550 with ratio 1.0
+new_edge_index num: 8550
+Val  Accuracy: &92.62 	        NLL: &0.3054        ECE: &6.2968
+Test Accuracy: &90.75\pm0.59 	NLL: &0.3496\pm0.0344 	ECE: &3.7928\pm3.95
